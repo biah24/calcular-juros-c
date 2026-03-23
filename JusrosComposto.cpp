@@ -1,9 +1,9 @@
 /*Implemente um programa que calcule o valor
-futuro de um investimento com juros compostos. O usu·rio deve informar o valor
-inicial, a taxa de juros e o perÌodo de capitalizaÁ„o (mensal, trimestral, semestral
-ou anual). O programa deve calcular e exibir o valor final apÛs o perÌodo de
-investimento e perguntar se o usu·rio deseja realizar novas operaÁıes. O
-programa deve encerrar quando o usu·rio escolher a opÁ„o ìsairí.*/
+futuro de um investimento com juros compostos. O usu√°rio deve informar o valor
+inicial, a taxa de juros e o per√≠odo de capitaliza√ß√£o (mensal, trimestral, semestral
+ou anual). O programa deve calcular e exibir o valor final ap√≥s o per√≠odo de
+investimento e perguntar se o usu√°rio deseja realizar novas opera√ß√µes. O
+programa deve encerrar quando o usu√°rio escolher a op√ß√£o ‚Äúsair‚Äô.*/
 
 
 #include<stdio.h>
@@ -14,7 +14,7 @@ int main(){
 	float MvalorFinal, M2, potencial;
 	int meses, op;
 	printf("Digite o Capital que deseja aplicar: ");
-	scanf("%f", &capital);  //(ir· investir inicialmente.)
+	scanf("%f", &capital);  //(ir√° investir inicialmente.)
 	printf("Taxa de juros: "); //mensal, semestral, anual)
 	scanf("%f", &taxa_juros);
 	printf ("Periodo: (1, 2, 3 ou 4):\n");
